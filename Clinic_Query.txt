@@ -1,0 +1,61 @@
+Creating Table:
+
+CREATE TABLE clinic(Cname varchar(25),Dname varchar(25),AAddress varchar(50),Email varchar(40),Speciality varchar(20),Open varchar(12),Close varchar(12),Bstart varchar(12),Bend varchar(12),Degree varchar(20),Username varchar(25),Password varchar(25),Mobile int,RegestrationNumber int,Area int);
+
+
+
+Insert Query:
+
+insert into clinic values ("heart clinic","Dr. Suyash Sharma","ambazari","suyashsharma@gmail.com","heart","10:00 am","22:00 pm","2:00 pm","4:00 pm","MBBS","suyash","suyash",9678948743,0,0);
+
+insert into clinic values ("skin care","Dr. joe marsh","ambazari","joemarsh@gmail.com","skin","9:00 am","22:00 pm","2:00 pm","4:00 pm","MBBS","suyash","suyash",9678958743,1,0);
+
+insert into clinic values ("fit bone clinic","Dr. sachin chauragade","ambazari","sachinch001@gmail.com","bone","10:00 am","20:00 pm","1:00 pm","6:00 pm","MBBS","suyash","suyash",4678958743,2,0);
+
+insert into clinic values ("goodlife clinic","Dr. samarjeet","ambazari","samarjeet444@gmail.com","diabetes","10:00 am","22:00 pm","2:00 pm","4:00 pm","MBBS","suyash","suyash",9656828743,3,0);
+
+insert into clinic values ("maxi clinic","Dr. anushka reddy","ambazari","anushkareddy@gmail.com","blood","11:00 am","23:00 pm","2:00 pm","4:00 pm","MBBS","suyash","suyash",9678958743,4,0);
+
+insert into clinic values ("rajiv's clinic","Dr. nayan patil","ambazari","nayanpatil@yahoo.com","hair","10:00 am","22:00 pm","1:00 pm","2:00 pm","MBBS","suyash","suyash",4531958743,0,1);
+
+insert into clinic values ("lung specilist ","Dr. nitesh raut","ambazari","niteshraut@gmail.com","lung","10:00 am","22:00 pm","2:00 pm","2:30 pm","MBBS","suyash","suyash",7785958743,1,1);
+
+insert into clinic values ("eyecare","Dr. muskan rao","ambazari","muskanrao@yahoo.com","eye","11:00 am","23:00 pm","3:00 pm","5:00 pm","MBBS","suyash","suyash",9678955467,2,1);
+
+insert into clinic values ("happylife clinic","Dr. mayank gaikwad","ambazari","mayankgaikwad2@gmail.com","teeth","8:00 am","21:00 pm","12:00 pm","4:00 pm","MBBS","suyash","suyash",9678958777,3,1);
+
+insert into clinic values ("brain clinic","Dr. faheem khan","ambazari","faheemkhan@gmail.com","Neuro","10:00 am","23:00 pm","3:00 pm","4:00 pm","MBBS","suyash","suyash",8975246846,4,1);
+
+insert into clinic values('Aarogyam Clinic', 'Dr. Nachiket Arora', ' Variety Square, Sandhya Nagar Sitabuldi, Nagpur', 'Nachiketarora99@gmail.com', 'Eye Specialist','10:30 AM', '06:00 PM', '02:30 PM', '03:30 PM', 'MBBS', 'Nachiket Arora', 'Nachiket@245', 9926511245,0,2);
+
+insert into clinic values('Sanjeevni Clinic', 'Dr. Sagar Dubey', ' Savarkar Square,  Aditya Nagar Sitabuldi, Nagpur', 'sagardubey80@gmail.com', 'Heart Specialist','10:30 AM', '06:30 PM', '02:30 PM', '03:30 PM', 'PGDC', 'Sagar Dubey', 'sagar@909', 9025659080,1,2);
+
+insert into clinic values('Aaroh Clinic', 'Dr. Aaroh Sharma', ' Jhasirani Square, 30 Dinkar Nagar Sitabuldi, Nagpur', 'aarohsharma99@gmail.com', 'Dentist','10:30 AM', '06:00 PM', '02:30 PM', '03:30 PM', 'BDS', 'Aaroh Sharma', 'AarohS@245', 9425657022,2,2);
+
+insert into clinic values('Viveka Clinic', 'Dr. Manisha Ketkar', ' Sahitya bhavan Square, Purushottam Nagar Sitabuldi, Nagpur', 'ketkarmanisha88@gmail.com', 'Child Specialist','10:00 AM', '07:00 PM', '02:30 PM', '03:30 PM', 'MBBS , M.D.', 'Manisha Ketkar', 'ManishaK@245', 8756341290,3,2);
+
+insert into clinic values('Vaibhav Clinic', 'Dr. Mandar Lokhande', ' Jhasirani Square, Gandhi Nagar Sitabuldi, Nagpur', 'mandarlokhande98@gmail.com', 'Neurologist','10:00 AM', '07:00 PM', '02:00 PM', '03:00 PM', 'MBBS ', 'Mandar Lokhande', 'Mandar@980', 9809234591,4,2);
+
+insert into clinic values('Kingsway Clinic', 'Dr. Pournima Karandikar', ' Shastri Square, Sandeep Nagar Sitabuldi, Nagpur', 'pournimakarandikar80@gmail.com', 'Gynecologist','11:00 AM', '07:00 PM', '02:30 PM', '03:30 PM', 'DGO , M.D.', 'Pournima karandikar', 'PournimaK@245', 8655590212,0,3);
+
+insert into clinic values('Life Clinic', 'Dr. Sam Robert', ' RailwayStation Square, Subhash Nagar Sitabuldi, Nagpur', 'samrobert18@gmail.com', 'General Physician','10:00 AM', '07:00 PM', '02:30 PM', '03:30 PM', 'MBBS , MD', 'Sam Robert', 'RobertS@245', 9095657022,1,3);
+
+insert into clinic values('Chirayu Clinic', 'Dr. Pranav Pathak', ' Variety Square, Rameshwar Nagar Sitabuldi, Nagpur', 'pranavpathak88@gmail.com', 'General Physician','11:00 AM', '06:00 PM', '02:30 PM', '03:30 PM', 'MBBS ', 'Pranav Pathak', 'ppranav@9095', 9095657022,2,3);
+
+insert into clinic values('Mure Memorial Clinic', 'Dr. Prashant Gautam', ' Paras Square, Raghunath Nagar Sitabuldi, Nagpur', 'prashant11@gmail.com', 'Heart specialist','11:00 AM', '06:00 PM', '02:30 PM', '03:30 PM', 'MBBS ', 'Prashant Gautam', 'prashantG@900', 9989012348,3,3);
+
+insert into clinic values('Apex Clinic', 'Dr. Rajesh Rathi', ' Salasar Square, Congress Nagar T Point, Nagpur', 'docrajeshrathi@gmail.com', 'Psychiatry','10:30 AM', '08:00 PM', '02:00 PM', '04:00 PM', 'MBBS, MD', 'RajeshRathi', 'rajesh@123', 9965351427,4,3);
+
+insert into clinic values('Jivak Clinic', 'Dr. Jivak Mehta', ' Honey Archana Complex,Medical Square, Nagpur', 'jivakclinic@gmail.com', 'General Physician', '10:00 AM', '08:00 PM', '02:00 PM', '04:00 PM', 'MBBS', 'Jivakmehta', 'jivak@121', 7947285680,0,4);  
+
+insert into clinic values('Madhavbaug Clinic', 'Dr. Amar Jadhav', ' 2nd Floor Ramkrishna Nagar, Sai Mandir Road, Wardha Road, Nagpur', 'madhavbaugclinic@gmail.com', 'Cardioligsts', '10:00 AM', '08:00 PM', '02:00 PM', '04:00 PM', 'MBBS,MD', 'Madhavbaug', 'madhavbaug@211', 7947345080,1,4);
+
+insert into clinic values('Shuddhi Clinic', 'Dr. Sudha Agrawal', ' 1st Floor Vivekanand Nagar, Wardha Road, Nagpur', 'shuddhiclinic@gmail.com', 'Dentist', '10:00 AM', '08:00 PM', '02:00 PM', '04:00 PM', 'B.D.S', 'Shuddhicagrawal', 'shuddhi@311', 8946545080,2,4);   
+
+
+
+
+insert into clinic values('Mother care clinic ', 'Dr. Hemlata Sharma', ' Sai Complex, Hingna T-point, Nagpur', 'mothercareclinic@gmail.com', 'General Physician', '10:30 AM', '08:00 PM', '02:00 PM', '04:00 PM', 'B.D.S', 'Hemlatasharma', 'hemlata@111', 8946543461,3,4); 
+
+insert into clinic values('Medigrace clinic ', 'Dr.  Pawan Gulhane', ' Multi-speciality Clinic Ramdaspeth, Nagpur', 'medigrace@gmail.com', 'Obstetrics & Gynaecology', '10:00 AM', '08:00 PM', '02:00 PM', '04:00 PM', 'MBBS,MS', 'PawanGulhane', 'pawan@222', 6206543468,4,4);
+

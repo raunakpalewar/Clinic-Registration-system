@@ -1,0 +1,13 @@
+Creating Table:
+
+CREATE TABLE user(Name varchar(25),Sex varchar(7),Email varchar(40),Address varchar(50),Username varchar(25),Password varchar(25),Age int,Contact int,IndexS int);
+
+
+
+Insert Query:
+
+INSERT INTO user VALUES ('Mandeep','Male','Mandeep@gmail.com','Manish Nagar, Nagpur','Mandeep','Mandeep',20,9373599214,0);
+INSERT INTO user VALUES ('Raunak','Male','Raunak@gmail.com','New Yerkheda Kamptee, Nagpur','Raunak','Raunak',20,9373599214,1);
+INSERT INTO user VALUES ('Rohan','Male','Rohan@gmail.com','Butibori, Nagpur','Rohan','Rohan',20,9359826057,2);
+INSERT INTO user VALUES ('Sameer','Male','Sameer@gmail.com','Deendayal Nagar, Nagpur','Sameer','Sameer',20,8625913739,3);
+INSERT INTO user VALUES ('Sudeep Roy','Male','sudeeproy@gmail.com','Ranala Kamptee, Nagpur','sudeep','sudeep',20,9373599214,4);
